@@ -41,10 +41,13 @@
             <span class='icon-field'></i></span> Dashboard
         </a>
         <a href="index.php?page=categories" class="nav-item bg-primary nav-categories">
-            <span class='icon-field'></span> Category
+            <span class='icon-field'></span> Categories
         </a>
         <a href="index.php?page=voting_list" class="nav-item bg-primary nav-voting_list nav-manage_voting">
-            <span class='icon-field'></i></span> Voting 
+            <span class='icon-field'></i></span> Candidates
+        </a>
+        <a href="index.php?page=reports" class="nav-item bg-primary nav-voting_list nav-manage_voting">
+            <span class='icon-field'></i></span> Reports
         </a>
 		
         <?php if($_SESSION['login_type'] == 1): ?>
